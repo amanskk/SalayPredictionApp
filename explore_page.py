@@ -180,4 +180,4 @@ def show_explore_page():
 
     data = df.groupby(["YearsCodePro"])["Salary"].mean().sort_values(ascending=True)
     st.line_chart(data)
->>>>>>> 79d0b028ea0cca859e901e8ddcc0bb9924438a44
+
